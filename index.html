@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta href charset="utf-8">
+    <style>
+       body{
+           background-color:lavender;
+           background-size: 100%;
+           background-attachment: fixed;
+       }
+        
+      #leftcol {
+            position: absolute; /* Абсолютное позиционирование */
+            left: 60; /* Положение левого края */
+            top: 60; /* Положение верхнего края */
+            width: 700px; /* Ширина слоя */
+            background: #BC8F8F; /* Цвет фона */
+            color: white; /* Цвет текста */
+        }
+      #rightcol { /* Этот слой накладывается поверх */
+            position: relative; /* Относительное позиционирование */ left: 500px; /* Положение от левого края */
+            top: 200px; /* Положение от верхнего края */
+            width: 700px; /* Ширина правой колонки */
+            background: #F4A460; /* Цвет фона */
+            color: #fff; /* Цвет текста */ }
+       </style>
+    </head>
+  <body>
+   <div id="leftcol">Топ 5 популярных фильмов 2021 года:<br><li>Веном 2</li><li>Дюна</li><li>Мавританец</li><li>Круэлла</li><li>Не время умирать</li></div>
+   <div id="rightcol">Топ 5 сериалов 2021 года:<br><li>ВандаВижн</li><li>Джинни и Джорджия</li><li>Люпен</li><li>Локи</li><li>Солдат и зимний сокол</li></div>
+</body>
+</html>
